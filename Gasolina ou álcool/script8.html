@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Verdade</title>
+    <h1>Atividade JavaScript 8</h1>
+    <script>
+        var capacidade_tanque = 40
+        var distancia_gasolina = 480
+        var distancia_litro_gasolina = distancia_gasolina / capacidade_tanque
+        var distancia_alcool = 300
+        distancia_litro_alcool = distancia_alcool / capacidade_tanque
+        var preço_gasolina = (capacidade_tanque / distancia_gasolina) * 2.90
+        var preço_alcool = (capacidade_tanque / distancia_alcool) * 2.40
+
+        document.write(`A distância por litro de gasolina é ${distancia_litro_gasolina} Km/1. <br> A distância por litro de álcool é ${distancia_litro_alcool} Km/1 <br> O preço da gasolina é ${preço_gasolina.toFixed(2)} R$ <br> O preço do álcool é de ${preço_alcool} R$`)
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
